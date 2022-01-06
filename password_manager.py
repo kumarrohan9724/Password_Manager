@@ -34,6 +34,7 @@ def add():
 
     with open('password.txt', 'a') as f:
         f.write(Name + "|" + fer.encrypt(pwd.encode()).decode() + "\n")
+        
 
 while True:
     mode=input("what would you like to do \n1.View\n2.Add\n3.Quit\n" )
